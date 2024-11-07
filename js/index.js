@@ -1,10 +1,9 @@
 // typical game variables like points and coins
 let Points = null;
-let Coins = null;
 let Items = []; //this will keep track of the items the player currently HAS
 let Level = null; // this will keep track of what level/difficulty the player is on
 let Special_level_type = null; //might be unused but could be fun for like a christmas special asset day :3
-let turn = 0;
+let turn = 0; //Useful incase it's a turn-based thing
 
 //player's point value and lives counter
 let Player_Points = 0;
