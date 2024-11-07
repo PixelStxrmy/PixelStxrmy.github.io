@@ -25,11 +25,6 @@ let Dice_one = null;
 let Dice_two = null;
 let Dice_three = null;
 
-//these will be the reference for all future shop events
-//taking care of both the items in it and their prices
-const Shop = [];
-const Shop_Prices = [];
-
 //These value are what help in the process of comparing the cards drawn
 let Table_value = null;
 let Deck_value = null;
