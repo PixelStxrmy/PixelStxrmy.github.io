@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #241e2b;
-    --secondary-color: #242b35;
+    --secondary-color: #262431;
     --tertiary-color: #b07eec;
     --text-color: #e8f4e9;
     --text-secondary-color: #8877bb;
@@ -12,11 +12,11 @@
     background-color: var(--primary-color);
 }
 
-.bg-secondary {
+.bg-card {
     background-color: var(--secondary-color);
 }
 
-.bg-tertiary {
+.bg-special {
     background-color: var(--tertiary-color);
 }
 
@@ -26,4 +26,8 @@
 
 .text-special {
     color: var(--text-secondary-color);
+}
+
+.border-special {
+    border: 1px solid var(--tertiary-color) !important;
 }
