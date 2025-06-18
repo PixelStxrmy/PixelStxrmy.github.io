@@ -31,3 +31,8 @@
 .border-special {
     border: 1px solid var(--tertiary-color) !important;
 }
+
+.hover-special:hover {
+    background-color: var(--primary-color) !important;
+    color: var(--tertiary-color) !important;
+}
