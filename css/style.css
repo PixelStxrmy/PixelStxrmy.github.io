@@ -23,7 +23,7 @@
 .text-main {
     color: var(--text-color) !important;
 }
-}
+
 
 .text-special {
     color: var(--text-secondary-color) !important;
